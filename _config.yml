@@ -1,9 +1,9 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: SoWatt's Security Blog
+description: "Information Security research, write-ups, and projects."
 author:
-  name: "SomeHacker"
+  name: "Kyle Sowatt"
   email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  url: "https://soWatt.github.io"
 
 baseurl: /
 
@@ -28,5 +28,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
+owner : "SoWatt"
 year : "2020"
