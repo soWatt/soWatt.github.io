@@ -21,7 +21,6 @@ I first ran a nmap scan to see what ports were open and also made an attempt to 
 <br/>
 ```
 nmap -sV 10.10.248.199
-<br/>
 ```
 The scan returned the following results:
 <br/>
