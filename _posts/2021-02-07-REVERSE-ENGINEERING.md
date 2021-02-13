@@ -36,7 +36,6 @@ So the conditions are tested using a "compare" and "test" instruction which lead
 ![](images/THM_Reverse_Uno/4.png)
 <br/>
 How I arrived to these answers was by setting a breakpoint on the third to last instruction on the main function. This allows you to see all the values of the variables after it hits the conditional. When looking at memory addresses, the value of the variable is in hexidecimal. This requires a conversion to decimal, hence why the answer of question one is "96" even though when we check the position of var_8h it shows "60" in the zero offset of that variable.
-
 <br/>
 <br/>
 Next up, we are going to look at while and for loops in assembely. This is the disassembeled look at the loop2 binary which will be used to answer this sections questions:
