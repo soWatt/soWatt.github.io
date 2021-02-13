@@ -2,7 +2,7 @@
 title: UNO-CARD REVERSAL - Beginning descent into the reverse engineering rabbit hole.
 published: true
 ---
-Side note: I got the other machine working again, since it's set up I'll incorporate it in some projects.
+Side note: I got the other machine working again. Since the macbook is set up, I'll incorporate it in some projects.
 <br/>
 # [](#header-1)UNO-CARD REVERSAL - Beginning descent into the reverse engineering rabbit hole.
 <br/><br/>
