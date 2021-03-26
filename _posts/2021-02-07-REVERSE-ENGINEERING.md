@@ -4,7 +4,7 @@ published: true
 ---
 Side note: I got the other machine working again. Since the macbook is set up, I'll incorporate it in some projects.
 <br/>
-# [](#header-1)UNO-CARD REVERSAL - Beginning descent into the reverse engineering rabbit hole.
+# [](#header-1)UNO-CARD REVERSAL - Beginning the descent into the reverse engineering rabbit hole.
 <br/><br/>
 One of my favorite topics from Advent of Cyber 2020 was reversing (and scripting/programming is in close second). The next series of posts will be a collection of notes related to the topic. Since I've used radare2 5 times ever and haven't touched Ghidra or IDA freeware before, I have quite a long way to go. I will start by walking through the 'Intro to x86-64' room on TryHackMe.
 
