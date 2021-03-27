@@ -6,6 +6,9 @@ published: true
 # [](#header-1)BUFFER OVERFLOWS - Explained by an average IT guy
 <br/>
 <br/>
+![](images/Buffer-Overflow-Prep/BOP_Completion.png)
+<br/>
+<br/>
 When I first read a write-up of someone explaining how a buffer overflow worked, my brain melted and poured out of my ears. After doing some research, I am able to keep all of my brain matter intact and inside my cranium. In this write-up, I will walk through the first part of Tib3rius' 'Buffer overflow prep' room on Tryhackme (excellent room, thanks for making it!).
 <br/>
 <br/>
