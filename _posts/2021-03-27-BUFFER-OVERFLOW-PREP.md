@@ -63,11 +63,11 @@ Awesome, we have some more python to take a look at. We see some familiar functi
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l NUMBER
 ```
 <br/>
-Replacing 'NUMBER' with the amount of bytes (NOTE: it is recommended to add more bytes in incrememnts of 100 to this number just in case) it took to crash the binary will generate a long string of lowercase/uppercase characters, copy and paste the returned value into the payload variable of the exploit.py script:
+Replacing 'NUMBER' with the amount of bytes (NOTE: it is recommended to add more bytes in incrememnts of 100 to this number just in case) it took to crash the binary will generate a long string of characters, copy and paste the returned value into the payload variable of the exploit.py script:
 <br/>
 ![](images/Buffer-Overflow-Prep/6.png)
 <br/>
-So instead of sending 2000 "A" characters we are now sending a pattern of unique characters.  We do this so we can search where exactly where crashes occur since we now have a pattern to search through instead of the same character over and over. Now we restart the program and run the exploit.py script with the updated payload. Now that we crashed the program, we use mona to search for more information:
+So instead of sending 2000 "A" characters we are now sending a pattern of unique characters.  We do this so we can search where exactly crashes occur since we now have a pattern to search through instead of the same character over and over. Now we restart the program and run the exploit.py script with the updated payload. Now that we crashed the program, we use mona to search for more information:
 <br/>
 ```
 !mona findmsp -distance NUMBER
