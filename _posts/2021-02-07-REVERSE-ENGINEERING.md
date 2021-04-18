@@ -1,5 +1,5 @@
 ---
-title: UNO-CARD REVERSAL - Beginning the descent into the reverse engineering rabbit hole.
+title: Reverse Uno Card - Beginning the descent into the reverse engineering rabbit hole.
 published: true
 ---
 Side note: I got the other machine working again. Since the macbook is set up, I'll incorporate it in some projects.
