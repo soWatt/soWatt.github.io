@@ -11,5 +11,5 @@ Hello and welcome to my little slice of the internet! My name is Kyle and I am i
 <br/>
 <br/>
 <br/>
-[Linkedin](https://www.linkedin.com/in/kylesowatsky/)&nbsp;&nbsp; [Github](https://github.com/soWatt)&nbsp;&nbsp; [Tryhackme](https://tryhackme.com/p/SoWatt3/)
+[Github](https://github.com/soWatt)&nbsp;&nbsp; [Tryhackme](https://tryhackme.com/p/SoWatt3/)
 
