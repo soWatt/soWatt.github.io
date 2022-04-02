@@ -5,7 +5,7 @@ title: About
 
 # About me
 
-Hello and welcome! This blog serves as a place to store my notes on whatever the heck I'm doing. 
+Sometimes I'm writing code, sometimes I'm breaking code and often times I'm writing broken code.
 
 <br/>
 <br/>
