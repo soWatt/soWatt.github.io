@@ -20,4 +20,4 @@ A Docker container is lightweight and standalone, it has everything contained wi
 3. Use them together for max flexibility!
 <br/>
 <br/>
-Docker documentation provides plenty of tutorial material for Docker/Docker Desktop. 
+Docker documentation provides plenty of tutorial material for Docker/Docker Desktop which can be found [here](https://docs.docker.com/get-started/). 
