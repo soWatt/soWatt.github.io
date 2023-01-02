@@ -1,5 +1,4 @@
 # SoWatt Security
-Blog theme: Hacker
 
 This is where I keep my write-ups and point to some handy resources.
 
