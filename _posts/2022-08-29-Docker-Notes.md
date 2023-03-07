@@ -21,3 +21,11 @@ A Docker container is lightweight and standalone, it has everything contained wi
 <br/>
 <br/>
 Docker documentation provides plenty of tutorial material for Docker/Docker Desktop which can be found [here](https://docs.docker.com/get-started/). 
+<br/>
+<br/>
+So what about container security? Since it's so easy to spin a new container from an image, the most obvious path to exploitation is malicious changes to the build files for an image (I.E Dockerfile). It's good practice to have a generic base image which is used to build all images from (and keep this base image secure). Other areas of focus should be OS security that the contianer runs on and secure coding best practices.
+<br/>
+<br/>
+And this is enough info on containers to start to look at contianer escapes ;)
+<br/>
+![](/images/dockernotes/1.png)
