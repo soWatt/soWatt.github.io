@@ -15,8 +15,7 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -26,19 +25,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout source code
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
 
-  # Deployment job
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5  # updated to v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v2  # updated to v2
+        with:
+          source: ./  # Path to Jekyll source
+          destination: ./_site  # Output folder
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3  # updated to v3
+
+  # Deploy job
   deploy:
     environment:
       name: github-pages
@@ -48,4 +50,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4  # updated to v4
