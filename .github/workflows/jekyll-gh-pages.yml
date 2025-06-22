@@ -32,7 +32,7 @@ jobs:
         uses: actions/configure-pages@v5  # updated to v5
 
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v2  # updated to v2
+        uses: actions/jekyll-build-pages@v1
         with:
           source: ./  # Path to Jekyll source
           destination: ./_site  # Output folder
